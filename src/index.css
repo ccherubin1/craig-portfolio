@@ -1,0 +1,118 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 85%;
+
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 85%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 85%;
+
+    --primary: 207 100% 34%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 85%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 207 100% 34%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 207 100% 34%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-black text-gray-300 font-courier;
+    scroll-behavior: smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .cyber-grid {
+    background-image: 
+      linear-gradient(rgba(0, 101, 175, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 101, 175, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .glitch-text {
+    position: relative;
+    color: #ffffff;
+  }
+
+  .glitch-text::before,
+  .glitch-text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .glitch-text::before {
+    animation: glitch 0.3s ease-in-out infinite alternate-reverse;
+    color: #0065af;
+    z-index: -1;
+  }
+
+  .glitch-text::after {
+    animation: glitch 0.3s ease-in-out infinite alternate-reverse;
+    color: #0065af;
+    z-index: -2;
+  }
+
+  .terminal-prompt::before {
+    content: '> ';
+    color: #0065af;
+  }
+
+  .scan-lines::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      transparent 0%,
+      rgba(0, 101, 175, 0.03) 50%,
+      transparent 100%
+    );
+    background-size: 100% 4px;
+    animation: scan-line 2s linear infinite;
+    pointer-events: none;
+  }
+
+  /* Enhanced logo hover effects */
+  .text-shadow-cyan {
+    text-shadow: 0 0 10px rgba(0, 101, 175, 0.8);
+  }
+}
