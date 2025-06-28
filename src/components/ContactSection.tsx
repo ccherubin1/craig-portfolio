@@ -109,7 +109,7 @@ const ContactSection = () => {
             {/* Quote/Philosophy */}
             <div className="bg-gray-900/50 border border-gray-700 p-6">
               <div className="text-gray-400 text-sm italic leading-relaxed">
-                "The the purpose of a system is what it does. There is after all, no point in claiming that
+                "The purpose of a system is what it does. There is after all, no point in claiming that
                  the purpose of a system is to do what it constantly fails to do."
               </div>
               <div className="text-cyber-blue text-xs mt-3 text-right">— Stafford Beer</div>
