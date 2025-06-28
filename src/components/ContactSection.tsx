@@ -27,7 +27,12 @@ const ContactSection = () => {
                   <div className="text-cyber-blue">@</div>
                   <div>
                     <div className="text-white text-sm">Email</div>
-                    <div className="text-gray-400 text-sm">craig.cherubin@gmail.com</div>
+                    <a 
+                      href="mailto:craig.cherubin@gmail.com" 
+                      className="text-gray-400 text-sm hover:text-cyber-blue transition-colors duration-200"
+                    >
+                      craig.cherubin@gmail.com
+                    </a>
                   </div>
                 </div>
 
@@ -35,7 +40,14 @@ const ContactSection = () => {
                   <div className="text-cyber-blue">§</div>
                   <div>
                     <div className="text-white text-sm">LinkedIn</div>
-                    <div className="text-gray-400 text-sm">https://www.linkedin.com/in/craig-cherubin/</div>
+                    <a 
+                      href="https://www.linkedin.com/in/craig-cherubin/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-gray-400 text-sm hover:text-cyber-blue transition-colors duration-200"
+                    >
+                      https://www.linkedin.com/in/craig-cherubin/
+                    </a>
                   </div>
                 </div>
 
@@ -43,7 +55,14 @@ const ContactSection = () => {
                   <div className="text-cyber-blue">#</div>
                   <div>
                     <div className="text-white text-sm">GitHub</div>
-                    <div className="text-gray-400 text-sm">https://github.com/ccherubin1</div>
+                    <a 
+                      href="https://github.com/ccherubin1" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-gray-400 text-sm hover:text-cyber-blue transition-colors duration-200"
+                    >
+                      https://github.com/ccherubin1
+                    </a>
                   </div>
                 </div>
               </div>
