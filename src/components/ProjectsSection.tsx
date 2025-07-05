@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectsSection = () => {
   const projects = [
@@ -59,9 +59,15 @@ const ProjectsSection = () => {
                 {/* Project Header */}
                 <div className="mb-4">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-white font-bold text-lg group-hover:text-cyber-blue transition-colors duration-200">
-                      {project.title}
-                    </h3>
+                    {project.title === "Feed Hunger Now Revitalization" ? (
+                      <Link to="/fhn-revitalization" className="text-white font-bold text-lg group-hover:text-cyber-blue transition-colors duration-200">
+                        {project.title}
+                      </Link>
+                    ) : (
+                      <h3 className="text-white font-bold text-lg group-hover:text-cyber-blue transition-colors duration-200">
+                        {project.title}
+                      </h3>
+                    )}
                     <span className={`text-xs px-2 py-1 ${
                       project.status === 'Completed' 
                         ? 'bg-matrix-green/20 text-matrix-green border border-matrix-green/30'
