@@ -71,7 +71,7 @@ const ProjectsSection = () => {
                       <Link to="/fhn-revitalization" className="text-white font-bold text-lg group-hover:text-cyber-blue transition-colors duration-200">
                         {project.title}
                       </Link>
-                    ) : project.title === "R.A.M. - Reaching Alienated Minds Synthetic Psychological Environment" ? (
+                    ) : project.title === "RAM: Reaching Alienated Minds Synthetic Psychological Environment" ? (
                       <a 
                         href="https://devpost.com/software/ram-reaching-alienated-minds" 
                         target="_blank" 
