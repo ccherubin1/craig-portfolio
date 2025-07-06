@@ -12,7 +12,7 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div className="space-y-2">
               <div className="text-cyber-blue text-sm uppercase tracking-widest">
-                Industrial Engineering Student
+                Craig Cherubin | Industrial Engineering Student
               </div>
               <h1 className="text-4xl md:text-5xl font-orbitron font-black text-white leading-tight">
                 OPERATIONS RESEARCH &<br />
@@ -48,7 +48,7 @@ const AboutSection = () => {
                   'Visual Cultures',
                   'Systems Engineering',
                   'Digital Twin',
-                  'Cybernetics'
+                  'Cybernetics', 'Rapid Prototyping'
                 ].map((skill) => (
                   <span
                     key={skill}

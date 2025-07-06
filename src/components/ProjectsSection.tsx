@@ -5,15 +5,15 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: "Feed Hunger Now Revitalization",
-      category: "Simulation Engineering",
+      category: "Operations Research | Systems Engineering",
       description: "Advanced multi-agent simulation system modeling asymmetric conflict scenarios with cultural and technological variables.",
       technologies: ["Python", "Mesa", "NetworkX", "Simulation"],
       status: "In Development",
       highlights: ["Multi-domain operational modeling", "Cultural factor integration", "Predictive analytics"]
     },
     {
-      title: "R.A.M. - Reaching Alienated Minds Synthetic Psychological Environment",
-      category: "MIT Reality Hack 2025",
+      title: "RAM: Reaching Alienated Minds Synthetic Psychological Environment",
+      category: "Lead Simulation Architect & Research Director | MIT Reality Hack 2025",
       description: "Comprehensive optimization toolkit for industrial systems with focus on resource allocation and process efficiency.",
       technologies: ["MATLAB", "Gurobi", "Linear Programming"],
       status: "Completed",
@@ -26,6 +26,14 @@ const ProjectsSection = () => {
       technologies: ["Unity", "Python", "TensorFlow", "Computer Vision"],
       status: "Research Phase",
       highlights: ["VR - Compatible", "Cultural semiotics", "Automated analysis"]
+    },
+    {
+      title: "Areito Nanichi",
+      category: "Visual Cultures",
+      description: "Exploring the intersection of visual narratives and cultural identity through immersive digital storytelling.",
+      technologies: ["Unity", "Blender", "Adobe Creative Suite", "Cultural Analysis"],
+      status: "Research Phase",
+      highlights: ["Immersive storytelling", "Cultural identity exploration", "Digital narrative design"]
     }
   ];
 

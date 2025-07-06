@@ -13,7 +13,7 @@ const CVSection = () => {
 
   const experience = [
     {
-      title: "Smart Farm Research & Development Contributor",
+      title: "Smart Farm Research & Development Intern",
       organization: "Feed Hunger Now",
       period: "January 2025 - Present",
       description: "Developing a real-time digital twin for Feed Hunger Now’s hydroponic/aeroponic farm using AI, IoT sensors, and cybernetic systems to optimize efficiency and sustainability"
