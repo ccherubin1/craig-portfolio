@@ -4,37 +4,37 @@ import { Link } from 'react-router-dom';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Feed Hunger Now Revitalization",
+      title: "Feed Hunger Now Smart Farm Revitalization",
       category: "Operations Research | Systems Engineering",
-      description: "Advanced multi-agent simulation system modeling asymmetric conflict scenarios with cultural and technological variables.",
-      technologies: ["Python", "Mesa", "NetworkX", "Simulation"],
+      description: "Full-scale revitalization plan for a hybrid hydroponic/soil farm using operations research, systems design, and modular subprojects (Maintenance, Operations, Education, Outreach).",
+      technologies: ["Python", "Excel", "Project Management", "Simulation"],
       status: "In Development",
-      highlights: ["Multi-domain operational modeling", "Cultural factor integration", "Predictive analytics"]
+      highlights: ["Real world contraint simulation", "Digital portfolio", "Workflow optimization"]
     },
     {
       title: "RAM: Reaching Alienated Minds Synthetic Psychological Environment",
       category: "Lead Simulation Architect & Research Director | MIT Reality Hack 2025",
-      description: "Comprehensive optimization toolkit for industrial systems with focus on resource allocation and process efficiency.",
-      technologies: ["MATLAB", "Gurobi", "Linear Programming"],
+      description: "Social media simulation to educate youth on online safety and prevent extremist pipelining.",
+      technologies: ["VR", "Unity", "C#"],
       status: "Completed",
-      highlights: ["20% efficiency improvement", "Real-time optimization", "Scalable architecture"]
+      highlights: ["Designed symbolic system architecture and affect-based game mechanics.", "Wrote instructional content, narrative scripts, and environmental flow.", "Coordinated multi-disciplinary assets for technical implementation."]
     },
-    {
-      title: "The Ignorant Schoolmaster: Adaptive Synthetic Classroom",
-      category: "Simulation Engineering",
-      description: "Prototyping an interactive classroom simulation that adapts to individual learning styles and goals.",
-      technologies: ["Unity", "Python", "TensorFlow", "Computer Vision"],
-      status: "Research Phase",
-      highlights: ["VR - Compatible", "Cultural semiotics", "Automated analysis"]
-    },
-    {
-      title: "Areito Nanichi",
-      category: "Visual Cultures",
-      description: "Exploring the intersection of visual narratives and cultural identity through immersive digital storytelling.",
-      technologies: ["Unity", "Blender", "Adobe Creative Suite", "Cultural Analysis"],
-      status: "Research Phase",
-      highlights: ["Immersive storytelling", "Cultural identity exploration", "Digital narrative design"]
-    }
+    //{
+    //  title: "The Ignorant Schoolmaster: Adaptive Synthetic Classroom",
+    //  category: "Simulation Engineering",
+    //  description: "Prototyping an interactive classroom simulation that adapts to individual learning styles and goals.",
+    //  technologies: ["Unity", "Python", "TensorFlow", "Computer Vision"],
+    //  status: "Research Phase",
+     // highlights: ["VR - Compatible", "Cultural semiotics", "Automated analysis"]
+   // },
+   // {
+    //  title: "Areito Nanichi",
+     // category: "Visual Cultures",
+     // description: "Exploring the intersection of visual narratives and cultural identity through immersive digital storytelling.",
+      //technologies: ["Unity", "Blender", "Adobe Creative Suite", "Cultural Analysis"],
+     // status: "Research Phase",
+     // highlights: ["Immersive storytelling", "Cultural identity exploration", "Digital narrative design"]
+   // }
   ];
 
   return (
@@ -67,7 +67,7 @@ const ProjectsSection = () => {
                 {/* Project Header */}
                 <div className="mb-4">
                   <div className="flex justify-between items-start mb-2">
-                    {project.title === "Feed Hunger Now Revitalization" ? (
+                    {project.title === "Feed Hunger Now Smart Farm Revitalization" ? (
                       <Link to="/fhn-revitalization" className="text-white font-bold text-lg group-hover:text-cyber-blue transition-colors duration-200">
                         {project.title}
                       </Link>

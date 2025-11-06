@@ -5,21 +5,27 @@ const CVSection = () => {
   const education = [
     {
       degree: "B.S. Industrial Engineering, Minor in Philosophy",
-      institution: "University of Central Florida",
-      period: "2020 - Present",
+      institution: "University of South Florida",
+      period: "Graduation May 2027",
       focus: "Operations Research & Simulation"
+    },
+    {
+      degree: "A.A. S.T.E.M Engineering",
+      institution: "Valencia College",
+      period: "Graduated December 2024",
+    
     }
   ];
 
   const experience = [
     {
-      title: "Smart Farm Research & Development Intern",
+      title: "Urban Farm R&D Intern",
       organization: "Feed Hunger Now",
-      period: "January 2025 - Present",
-      description: "Developing a real-time digital twin for Feed Hunger Now’s hydroponic/aeroponic farm using AI, IoT sensors, and cybernetic systems to optimize efficiency and sustainability"
+      period: "March 2025 - August 2025",
+      description: "Designed a systems-based revitalization plan for Feed Hunger Now’s hybrid farm,applying project management, operations research, digital simulation models, andcommunity-focused workflows to optimize resource use and support scalable,tech-integrated agriculture."
     },
     {
-      title: "Secretary & Founding Member",
+      title: "Secretary & Co-Founder",
       organization: "Valencia Philosophy Society",
       period: "August 2023 - April 2024",
       description: "Researched, authored, and presented philosophy lectures, facilitated discussions, and maintained a database of meeting minutes and 130+ member contacts."
@@ -27,10 +33,10 @@ const CVSection = () => {
   ];
 
   const skills = {
-    "Modeling & Simulation": ["MATLAB/Simulink", "Arena", "Unity", "Fusion 360" , "AnyLogic"],
-    "Operations Research": ["Linear Programming", "Stochastic Processes", "Optimization", "Queueing Theory"],
-    "Programming": ["Python", "R", "MATLAB", "C++", "SQL"],
-    "Analysis Tools": ["Tableau", "Power BI", "Statistical Analysis", "Data Mining"]
+    "Modeling & Simulation": ["MATLAB/Simulink", "Unity", "Fusion 360", "AutoCAD", "Excel"],
+    "Operations Research": ["Linear Programming", "Stochastic Processes", "Optimization"],
+    "Programming": ["Python", "R", "MATLAB", "C++", "SQL", "VBA"],
+    //"Analysis Tools": ["Tableau", "Power BI", "Statistical Analysis", "Data Mining"]
   };
 
   return (

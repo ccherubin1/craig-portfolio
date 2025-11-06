@@ -75,15 +75,15 @@ const ContactSection = () => {
               </h3>
               <div className="space-y-2 text-gray-300 text-sm">
                 <p className="terminal-prompt">Open to research collaborations</p>
-                <p className="terminal-prompt">Available for consulting projects</p>
+                {/* <p className="terminal-prompt">Available for consulting projects</p> */}
                 <p className="terminal-prompt">Seeking internship opportunities</p>
               </div>
             </div>
           </div>
 
-          {/* System Status Display */}
+        {/* System Status Display */}
           <div className="space-y-6">
-            <div className="bg-black/50 border border-cyber-blue/30 p-6">
+            {/* <div className="bg-black/50 border border-cyber-blue/30 p-6">
               <div className="text-cyber-blue text-sm uppercase tracking-wider mb-4">System Status</div>
               
               <div className="space-y-3 font-mono text-xs">
@@ -104,10 +104,10 @@ const ContactSection = () => {
                   <span className="text-cyber-blue">UNIVERSITY OF CENTRAL FLORIDA</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Quote/Philosophy */}
-            <div className="bg-gray-900/50 border border-gray-700 p-6">
+            <div className="bg-gray-900/50 border border-gray-700 p-6 mt-24">
               <div className="text-gray-400 text-sm italic leading-relaxed">
                 "The purpose of a system is what it does. There is after all, no point in claiming that
                  the purpose of a system is to do what it constantly fails to do."
@@ -116,13 +116,13 @@ const ContactSection = () => {
             </div>
 
             {/* Terminal-style footer */}
-            <div className="bg-black border border-cyber-blue/30 p-4 font-mono text-xs">
-              {/* <div className="text-cyber-blue mb-2">$ whoami</div>
-              <div className="text-gray-400">industrial.engineer@simulation.systems</div>*/}
+            {/* <div className="bg-black border border-cyber-blue/30 p-4 font-mono text-xs">
+              <div className="text-cyber-blue mb-2">$ whoami</div>
+              <div className="text-gray-400">industrial.engineer@simulation.systems</div>
               <div className="text-cyber-blue mt-2">$ currently</div>
               <div className="text-gray-400">researching virtual_statecraft...</div> 
               <div className="text-cyber-blue mt-2 animate-pulse">_</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
